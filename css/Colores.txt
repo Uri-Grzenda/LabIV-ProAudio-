@@ -1,0 +1,5 @@
+Contraste (azul-celeste): #73c5dd --> Reemplaza a #2dd393
+Fondo (celeste claro): #def1f4 --> Reemplaza a #45E8A9
+Fuente: black
+Campo formulario (celeste claro 2): rgb(85, 252, 244)
+Título H2: 0f81fc

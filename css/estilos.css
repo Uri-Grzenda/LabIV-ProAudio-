@@ -1,0 +1,818 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+
+/* --- <Header General> --- */
+/*
+header {
+  background-color: #2dd393;
+  max-width: 100%;
+  max-height: 15vh;
+  width: 100%;
+  height: auto;
+  position: sticky;
+  top: 0;
+  color: #835126;
+  /* border-style: dotted;
+  border-color: #FFF;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  display: inline-block;
+  padding-left: 3%;
+  text-decoration: underline;
+  text-decoration-color: #835126;
+}
+
+header h2 {
+  font-size: 1.8rem;
+  display: block;
+  padding-left: 3%;
+}
+
+header a {
+  color: #835126;
+}
+*/
+
+/* --- </Header General> --- */
+/* --- <Header Home> --- */
+
+#header-index {
+  background-image: url(../imagenes/Header-Banner4b.jpg);
+  color: #28cdff;
+  background-color: #def1f4;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 50vh;
+  max-height: none;
+  width: 100%;
+  height: auto;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  color: #fca020;
+  padding-top: 2%;
+}
+
+#header-index a {
+  display: inline-block;
+  color: #2dd393;
+}
+
+.titulo-header {
+  display: inline-block;
+  color: #0f81fc; /* d79aed d04fff */
+  text-shadow: 2px 2px 5px #def1f4;
+  font-family: 'Audiowide', cursive;;
+  font-size: 4rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #111;
+  letter-spacing: 0.17rem;
+  padding: 0;
+  margin: 0;
+}
+
+#header-index h3 {
+  display: block;
+  font-size: 2.5rem;
+}
+
+.logo {
+  max-width: 20vh;
+  width: 70%;
+  height: auto;
+  display: inline-block;
+  margin-left: 15%;
+  margin-top: 10%;
+  resize: both;
+  border-radius: 100%;
+}
+
+.logo:hover {
+  box-shadow: 0px 0px 2.5rem #d04fff;
+  transition: 0.3s;
+}
+
+.logo:not(:hover) {
+  box-shadow: 0px 0px 2rem #ff7aed;
+  transition: 0.3s;
+}
+
+.div-titulos {
+  display: inline-block;
+}
+
+.header-izquierda {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  /* border-style: dotted;
+  border-color: #FFF; */
+}
+ /*
+.header-derecha {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  /*border-style: dotted;
+  border-color: #FFF;
+  max-width: 100%;
+  position: absolute;
+  bottom: 1%;
+  right: 0%;
+}
+
+#header-index .header-derecha {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.header-derecha nav {
+  display: inline-block;
+  height: auto;
+  /* border-style: dotted;
+  border-color: #FFF;
+
+}
+*/
+
+
+/* Nav header */
+
+
+#nav-principal {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+.links-nav {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #black;
+  display: flex;
+  justify-content: center;
+  background-color: #73c5dd;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+.links-nav li ul li {
+  list-style: none;
+  display: none;
+  position: relative;
+}
+
+
+.links-nav li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 25%;
+
+}
+
+.links-nav li ul li a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.links-nav li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.links-nav li::after {
+  content: ' ';
+  width: 0%;
+  height: 0.1rem;
+  background: black;
+  display: block;
+  margin auto;
+  transition: 0.3s;
+}
+
+
+.links-nav li:hover:after {
+  width: 100%;
+}
+
+
+/* --- </Header Home> --- */
+
+
+/* Body */
+
+body {
+  /* background-color: #3DCE97; */
+  background-color: #def1f4;
+  color: #black;
+  min-height: 50vh;
+}
+
+body a {
+  text-decoration: none;
+  color: #black;
+}
+
+body h1 {
+  padding-bottom: 1.5%;
+  padding-top: 5%;
+  font-size: 1.2rem;
+
+}
+
+
+/* --- <Home> --- */
+.principal img {
+  max-width: 200vh;
+  width: 90%;
+  height: auto;
+  display: inline-block;
+  margin: 0% 2% 0% 2%;
+}
+
+.imagen-mobile {
+  display: none;
+}
+
+
+.principal {
+  display: flex;
+  padding: 3% 3% 3% 3%;
+  align-content: center;
+}
+
+
+.entre-parrafos img {
+  display: block;
+  max-width: 80%;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-bottom: 4%;
+
+}
+
+body h4 {
+  margin-top: 2%;
+  padding-bottom: 3%;
+}
+
+.principal h4, p {
+  padding-bottom: 3%;
+}
+
+/* --- </Home> --- */
+
+/* --- <Argumento> --- */
+
+.texto {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.punteo-extenso li { margin: 0% 2% 2% 2%; }
+
+
+/* --- </Argumento> --- */
+
+
+/* --- <Galería> --- */
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+body .galeria-epigrafe {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.galeria-epigrafe div {
+  padding: 2%;
+  width: 33%;
+  text-align: center;
+}
+
+.galeria-epigrafe div a {
+  display: block;
+}
+
+.galeria-epigrafe div .galeria-link {
+  font-weight: bold;
+}
+
+.galeria-epigrafe div p {
+  max-width: 70%;
+  margin-left: 15%;
+}
+
+.galeria-epigrafe div a img {
+  max-height: 12rem;
+  height: auto;
+
+}
+
+.galeria-epigrafe .galeria-link::after {
+  content: ' ';
+  width: 0%;
+  height: 0.1rem;
+  background: black;
+  display: block;
+  margin auto;
+  transition: 0.3s;
+}
+
+.galeria-epigrafe .galeria-link:hover::after {
+  width: 100%;
+}
+
+/*
+.galeria div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+ .galeria div a img {
+  max-width: 18rem;
+  height: auto;
+} */
+
+#galeria_personajes a img {
+  max-height: 12rem;
+  width: auto;
+}
+
+.galeria a img {
+  max-width: 18rem;
+  height: auto;
+  flex-shrink: 0;
+  padding: 2%;
+
+
+
+}
+
+/* --- </Galería> --- */
+/* --- <Personajes> --- */
+
+.punteo {
+  margin-left: 7%;
+  margin-bottom: 5%;
+  list-style-type: square;
+}
+
+.punteo li a {
+  font-weight: 600;
+}
+
+.punteo li {
+  margin-bottom: 1%;
+  max-width: 40%;
+  width: auto;
+  /* border-style: dotted;
+  border-color: #FFF; */
+}
+
+.punteo li a::after {
+  content: ' ';
+  width: 0%;
+  height: 0.1rem;
+  background: black;
+  display: block;
+  margin auto;
+  transition: 0.3s;
+}
+
+.punteo li a:hover::after {
+  width: 100%;
+}
+
+.personaje {
+  max-width: 18rem;
+  height: auto;
+  display: inline-block;
+}
+
+.imagen-al-lado {
+  display: inline-block;
+  max-width: 20%;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.texto-al-lado {
+  display: inline-block;
+  max-width: 75%;
+  width: 65%;
+  margin-left: 5%;
+}
+
+
+/* --- </Personajes> --- */
+
+/* --- <Elenco> --- */
+
+/* --- </Elenco> --- */
+
+
+
+/* --- <Formulario de contacto> --- */
+
+.contacto {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  background-color: #73c5dd;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.contacto * {
+  margin-bottom: 0.5%;
+}
+
+.contacto p {
+  padding-top: 5%;
+}
+.contacto label {
+  margin-top: 3%;
+}
+.contacto input, textarea {
+  margin: 3% 0 2%;
+  padding: 2% 2% 2% 2%;
+  border-radius: 10px;
+  background-color: rgb(85, 252, 244);
+}
+
+.contacto input[type="checkbox"] {
+  margin-bottom: 5%;
+}
+
+.contacto textarea {
+  resize: vertical;
+}
+
+/* --- </Formulario de contacto> --- */
+
+
+/* Footer */
+
+footer {
+    background-color: #73c5dd;
+    color: black;
+    padding-bottom: 0%;
+}
+
+footer p {
+  margin-left: 0%;
+  margin-top: 1%;
+  padding-bottom: 0;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+footer div {
+  display: inline-block;
+}
+footer div img {
+  width: 10%;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+}
+
+footer nav {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+footer ul {
+  display: inline-block;
+  max-width: 25%;
+  padding-right: 4%;
+}
+
+footer ul li {
+  display: block;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #black;
+}
+
+
+footer li::after {
+  content: ' ';
+  width: 0%;
+  height: 0.1rem;
+  background: #def1f4;
+  display: block;
+  margin auto;
+  transition: 0.3s;
+}
+
+footer li ul li::after {
+  content: ' ';
+  width: 0%;
+  height: 0.1rem;
+  background: #def1f4;
+  display: block;
+  margin auto;
+  transition: 0.3s;
+}
+footer li:hover:after {
+  width: 100%;
+}
+footer li ul li:hover::after {
+  width: 100%;
+}
+
+
+footer img {
+  align-items: center;
+  max-width: 3rem;
+  width: 3%;
+  height: auto;
+  display: inline-block;
+  padding-top: 3%;
+  margin: 0% 1.5% 0% 2.5%;
+}
+
+#awesomeEquis, #awesomeBarras {
+  display: none;
+}
+
+#nav-principal .links-nav .solo-mobile {
+  display: none;
+}
+
+/* ------- Media Querys 480px ------- */
+
+@media(max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+    padding-bottom: 2%;
+  }
+
+  .titulo-header {
+    padding-left: 1%;
+  }
+
+#header-index h3 {
+    font-size: 2.4rem;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  #headerIndex logo {
+    width: 20%;
+  }
+  #nav-principal .links-nav .solo-mobile {
+    display: block;
+  }
+
+  .links-nav li {
+    display: block;
+    font-size: 0.7rem;
+    padding: 5% 5% 5% 5%;
+  }
+
+  .links-nav li a {
+    color: #2dd393;
+    font-size: 0.8rem;
+    font-weight: normal;
+  }
+
+  .links-nav {
+    position: fixed;
+    height: 100vh;
+    width: 200px;
+    right: -100%;
+    top: 0%;
+    margin: 0;
+    padding: 0;
+    background-color: #835126;
+    text-align: left;
+    transition: 0.5s;
+  }
+  #awesomeBarras {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+  }
+
+  #awesomeEquis {
+    position: relative;
+    top: 1.2%;
+    left: 5%;
+  }
+
+  #awesomeEquis, #awesomeBarras {
+    display: block;
+    color: white;
+  }
+
+  nav #nav-principal {
+    position: relative;
+    font-size: 1.4rem;
+    margin: 5% 5% 0% 4%;
+    cursor: pointer;
+    display: block;
+    color: #fff;
+  }
+
+  .links-nav {
+    display: block;
+  }
+
+  .links-nav ul {
+    margin: 3%;
+  }
+
+  .fa-bars {
+    right: 25%;
+  }
+
+  /* --- Index --- */
+
+  .principal {
+    margin: 2% 4% 2% 4%;
+    text-align: left;
+  }
+
+  .principal .imagen-desktop {
+    display: none;
+  }
+
+  .imagen-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .principal article {
+    display: block;
+  }
+
+  .punteo li {
+    max-width: 80%;
+    text-align: left;
+    padding: 2% 0% 2% 0%;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  /* --- Argumento --- */
+
+  .texto {
+    margin: 2% 8% 2% 8%;
+    text-align: left;
+  }
+  .texto p {
+    padding: 4% 0% 4% 0%;
+  }
+
+  .punteo-extenso {
+    padding-bottom: 5%;
+  }
+
+  .entre-parrafos img {
+    display: block;
+    max-width: 98%;
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-bottom: 4%;
+
+  }
+
+  /* --- Personajes --- */
+  .punteo li {
+    width: 100%;
+  }
+
+
+  .imagen-al-lado, .texto-al-lado {
+    width: 90%;
+    margin: 10%;
+    display: block;
+    text-align: left;
+  }
+
+  .texto-al-lado p {
+    padding-bottom: 3%;
+    padding-top: 3%;
+  }
+
+  #galeria_personajes {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #galeria_personajes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body .galeria-epigrafe {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .galeria-epigrafe div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .galeria-epigrafe div p {
+    max-width: 100%;
+    margin-left: 3.3%;
+  }
+
+  .galeria-epigrafe div img {
+    margin: 0;
+  }
+
+
+  /* --- Formulario --- */
+  .contacto {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #2dd393;
+    padding-top: 5%;
+    padding-bottom: 3%;
+
+  }
+
+  /* --- Footer --- */
+
+  footer p {
+    display: block;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 0;
+  }
+
+  .footer-flex {
+    display: block;
+  }
+
+  footer div {
+    text-align: center;
+    padding-top: 2%;
+  }
+  footer div img {
+    width: 15%;
+  }
+
+  footer nav {
+    display: none;
+  }
+
+}

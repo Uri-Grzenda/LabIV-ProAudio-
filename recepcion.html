@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Uri Grzenda">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/8d7a8cc07d.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+  <title>Say Anything - Inicio</title>
+</head>
+
+<body>
+
+  <header id="header-index">
+
+    <div class="header-izquierda">
+      <a href="index.html"><img class="logo" src="./imagenes/Logo-Min.png" alt="home"></a>
+      <div class="div-titulos">
+        <h2 class="titulo-header" > Say Anything</h2>
+        <h3 class="titulo-header"> BoJack Horseman</h3>
+      </div>
+    </div>
+    <i class="fa fa-bars" id="awesomeBarras" onclick="mostrarMenu()"></i>
+  </header>
+
+  <nav id="nav-principal">
+    <ul class="links-nav" id="linksNav">
+      <i class="fa fa-times" id="awesomeEquis" onclick="esconderMenu()"></i>
+      <li class="hover"><a href="index.html">Inicio</a></li>
+      <li class="hover"><a href="argumento.html">Argumento</a></li>
+      <li class="hover"><a href="personajes.html">Personajes</a></li>
+      <li class="solo-mobile"><a href="bojack.html">BoJack Horseman</a></li>
+      <li class="solo-mobile"><a href="carolyn.html">Princess Carolyn</a></li>
+      <li class="hover"><a href="recepcion.html">Críticas</a></li>
+      <li class="hover"><a href="galeria.html">Galería</a></li>
+      <li class="hover"><a href="elenco.html">Elenco</a></li>
+    </ul>
+  </nav>
+
+
+  <article class="texto">
+
+    <h1> Recepción y críticas generales </h1>
+      <p> Say Anything es considerado un punto de ruptura en la primera temporada de la serie. En su fecha de estreno, las críticas que recibió fueron variadas y en algunos casos negativas. El problema que tuvo dicha temporada es que los primeros seis capítulos no hacían destacar a la serie por nada en particular. El tono humorístico a medias con situación un tanto bizarras no bastaron para enganchar a parte de la prensa, que sólo construyó su reseña en base a la primer mitad de la temporada. “Incluso con su entorno inventivo y su elenco de estrellas, no hay suficientes razones para seguir con BoJack Horseman durante los primeros seis episodios.” - AVClub
+  	  Say Anything, el séptimo capítulo, es donde se empieza a ver cómo es la serie en realidad. Es el primer episodio en tomar un giro más oscuro y profundo, centrándose en la vida de Princess Carolyn y profundizando en las dificultades en su vida personal y laboral.
+  	  En cuanto a la serie en general, esta temporada fue la de críticas menos favorables, por las razones explicadas. Conforme avanzó, la serie se volvió más aclamada.
+    </p>
+
+    <p> Estas son algunas reseñas no favorables: </p>
+
+    <ul class="punteo">
+      <li> <a href="https://variety.com/2014/digital/reviews/tv-review-netflixs-bojack-horseman-1201279975/" target="_blank" rel="noopener noreferrer">Variety</a></li>
+      <li> <a href="https://www.avclub.com/netflix-s-entry-into-the-adult-animation-race-bojack-h-1798181164" target="_blank" rel="noopener noreferrer">AVClub</a></li>
+      <li> <a href="https://www.reddit.com/r/unpopularopinion/comments/n9dz6m/bojack_horseman_is_a_bad_show/" target="_blank" rel="noopener noreferrer">"BoJack Horseman es una mala serie"</a></li>
+    </ul>
+
+  </article>
+
+
+  <form class="contacto" action="/paginaDestino.php" method="GET">
+    <section class="texto">
+      <h2> Contacto </h2>
+      <p> Nos encantaría saber tu opinión sobre algún capítulo de la serie.
+      Coloca tu email si quieres recibir nuestras novedades </p>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="capitulo">Capitulo de la primer temporada:</label><br>
+      <input type="number" id="capitulo" name="capitulo" min=1 max=12 required><br>
+      <label for="nuevoUsuario">¿Es su primer visita al sitio?</label><br>
+      <input type="radio" id="nuevoSi" name="nuevoUsuario" value="SI" required>
+      <label for="nuevoSi">Sí</label><br>
+      <input type="radio" id="nuevoNo" name="nuevoUsuario" value="NO" checked="checked" required>
+      <label for="nuevoNo">No</label><br>
+      <input type="checkbox" id="temporadaCompleta" name="temporadaCompleta" value="temporadaCompleta">
+      <label for="vehicle1"> Viste la temporada completa</label><br>
+      <label for="opinion">¿Qué piensas?</label><br>
+      <p>
+        <textarea id="opinion" name="opinion"></textarea>
+      </p>
+
+      <input type="submit" value="Enviar" id="enviar">
+      <input type="reset" value="Restablecer" id="restablecer">
+
+    </section>
+  </form>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="index.html"><strong>Inicio</strong></a></li>
+        <li><a href="argumento.html">Argumento</a></li>
+        <li><a href="recepcion.html">Críticas</a></li>
+      </ul>
+      <ul>
+        <li><a href="personajes.html">Personajes</a></li>
+        <li><a href="bojack.html">BoJack Horseman</a></li>
+        <li><a href="carolyn.html">Princess Carolyn</a></li>
+      </ul>
+      <ul>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="elenco.html">Elenco</a></li>
+      </ul>
+
+    </nav>
+
+    <div class="footer-flex">
+      <p>Sitio web diseñado por Uri Grzenda</p>
+      <p>Todos los derechos reservados, 2022</p>
+      <div>
+        <a href="#"><img src="imagenes/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="imagenes/twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="imagenes/youtube.png" alt="Youtube"></a>
+        <a href="#"><img src="imagenes/instagram.png" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+
+<script src="js/alternarMenu.js"></script>
+</body>
+</html>
