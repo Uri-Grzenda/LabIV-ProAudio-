@@ -260,6 +260,11 @@ body h1 {
   align-content: center;
 }
 
+.principal .main-texto{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 
 .entre-parrafos img {
   display: block;
@@ -280,6 +285,14 @@ body h4 {
 }
 
 /* --- </Home> --- */
+
+/* --- <Sesion> --- */
+
+#login {
+  margin: 2% 10% 10% 15%;
+}
+
+/* --- </Sesion> --- */
 
 /* --- <Argumento> --- */
 
